@@ -1,11 +1,11 @@
 # Advanced RAG Pipeline
 
+<p align="center">English | <a href="README.ko.md">한국어</a></p>
+
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![UV](https://img.shields.io/badge/UV-Package%20Manager-5C4EE5)](https://github.com/astral-sh/uv)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-[![한국어](https://img.shields.io/badge/lang-한국어-red.svg)](README.ko.md)
 
 > **Production-ready RAG Pipeline with Clean Architecture and Pluggable Adapters**
 
