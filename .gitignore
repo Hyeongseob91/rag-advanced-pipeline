@@ -79,9 +79,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Ruff
+.ruff_cache/
+
 # UV
 .uv/
-uv.lock
+# Note: uv.lock should be committed for reproducible builds
 
 # IDE
 .idea/
@@ -94,6 +97,19 @@ uv.lock
 data/
 logs/
 *.log
+
+# Vector DB data (local testing)
+chroma_data/
+weaviate_data/
+*.db
+
+# ML Model cache
+models/
+.cache/
+sentence_transformers/
+*.onnx
+*.bin
+*.safetensors
 
 # OS
 .DS_Store
